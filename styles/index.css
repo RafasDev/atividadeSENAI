@@ -1,0 +1,138 @@
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #000000; 
+    line-height: 1.6;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #000000; 
+  }
+
+  /* Menu Superior */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px 30px;
+    color: #ffffff;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+  }
+
+  nav a:hover {
+    color: #005f8d;
+  }
+
+  /* Seção Hero */
+  .hero {
+    background-image: url('path-to-your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; 
+  }
+
+  .hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .hero h2 {
+    color: #000000; 
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  /* Seção Missão, Visão e Valores */
+  section {
+    padding: 60px 30px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000; 
+  }
+
+  .section-content {
+    margin-top: 30px;
+  }
+
+  .section-content p {
+    font-size: 18px;
+    color: #000000; 
+    margin-bottom: 20px;
+  }
+
+  .values {
+    list-style: none;
+    padding: 0;
+  }
+
+  .values li {
+    font-size: 18px;
+    color: #000000; 
+    margin-bottom: 10px;
+  }
+
+  /* Seção Contato */
+  #contato {
+    background-color: #f4f4f4;
+    padding: 50px 30px;
+    text-align: center;
+  }
+
+  #contato h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000; 
+  }
+
+  #contato p {
+    font-size: 18px;
+    color: #000000; 
+    margin: 10px 0;
+  }
+
+  #contato .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #005f8d;
+    text-decoration: none;
+  }
+
+  #contato .social-icons a:hover {
+    color: #d32f2f;
+  }
+
+  /* Rodapé */
+  footer {
+    background-color: #000000;
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+  }
